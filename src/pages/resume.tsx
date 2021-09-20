@@ -1,19 +1,13 @@
 import Head from "next/head";
-import {
-  FiExternalLink,
-  FiGithub,
-  FiLinkedin,
-  FiMail,
-  FiPhone,
-} from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 
 const Resume = () => {
   return (
-    <div className="prose max-w-none mx-auto py-5 px-8">
+    <div className="prose max-w-none mx-auto py-5 px-8 dark:text-white">
       <Head>
         <title>Pedro Fernandes | Front-End Developer</title>
       </Head>
-      <h1 className="text-center">Pedro Fernandes</h1>
+      <h1 className="text-center dark:text-white">Pedro Fernandes</h1>
       <div className="flex divide-x-2 divide-gray-800 justify-center">
         <span className="text-lg flex items-center px-2">
           Front-End Developer
@@ -40,7 +34,7 @@ const Resume = () => {
         </a>
       </div>
       <div className="border-b-4 pb-5">
-        <h2>Summary</h2>
+        <h2 className="dark:text-white">Summary</h2>
         <div>
           <p>
             I am a Front-End Developer that also have knowledge of Back-End
@@ -51,13 +45,15 @@ const Resume = () => {
         </div>
       </div>
       <div className="border-b-4 pb-5">
-        <h2>Work Experience</h2>
+        <h2 className="dark:text-white">Work Experience</h2>
         <div className="border-b">
           <div className="flex">
-            <h4>Freelancer</h4>
+            <h4 className="dark:text-white">Freelancer</h4>
             <div className="flex flex-col justify-end text-sm ml-auto">
               <span>Brazil</span>{" "}
-              <span className="text-blue-800">Mar 2021 - Present</span>
+              <span className="text-blue-800 dark:text-blue-500">
+                Mar 2021 - Present
+              </span>
             </div>
           </div>
           <ul>
@@ -74,10 +70,12 @@ const Resume = () => {
         </div>
         <div className="border-b">
           <div className="flex">
-            <h4>Zape - CTO & Co-founder</h4>
+            <h4 className="dark:text-white">Zape - CTO & Co-founder</h4>
             <div className="flex flex-col justify-end text-sm ml-auto">
               <span>Brazil</span>{" "}
-              <span className="text-blue-800">Oct 2020 - Feb 2021</span>
+              <span className="text-blue-800 dark:text-blue-500">
+                Oct 2020 - Feb 2021
+              </span>
             </div>
           </div>
           <ul>
@@ -94,10 +92,14 @@ const Resume = () => {
         </div>
         <div>
           <div className="flex">
-            <h4>Futestatisticas - CTO & Co-founder</h4>
+            <h4 className="dark:text-white">
+              Futestatisticas - CTO & Co-founder
+            </h4>
             <div className="flex flex-col justify-end text-sm ml-auto">
               <span>Brazil</span>{" "}
-              <span className="text-blue-800">Jun 2020 - Sep 2020</span>
+              <span className="text-blue-800 dark:text-blue-500">
+                Jun 2020 - Sep 2020
+              </span>
             </div>
           </div>
           <ul>
@@ -114,10 +116,12 @@ const Resume = () => {
         </div>
       </div>
       <div className="border-b-4 pb-5">
-        <h2>Honors & Awards</h2>
-        <h4>
+        <h2 className="dark:text-white">Honors & Awards</h2>
+        <h4 className="dark:text-white">
           Hackathon: Decentralized Governance Hackathon -{" "}
-          <span className="text-blue-800 text-sm">Sep 2021</span>
+          <span className="text-blue-800 dark:text-blue-500 text-sm">
+            Sep 2021
+          </span>
         </h4>
         <ul>
           <li>
@@ -127,19 +131,21 @@ const Resume = () => {
         </ul>
       </div>
       <div className="border-b-4 pb-5">
-        <h2>Languages</h2>
+        <h2 className="dark:text-white">Languages</h2>
         <ul>
           <li>English: Fluent</li>
           <li>Portuguese: Native</li>
         </ul>
       </div>
       <div>
-        <h2>Education</h2>
-        <h4>UFG (Universidade Federal de Goiás)</h4>
+        <h2 className="dark:text-white">Education</h2>
+        <h4 className="dark:text-white">UFG (Universidade Federal de Goiás)</h4>
         <ul>
           <li className="flex items-center">
             <span>Bachelor's degree in Software Engineering</span>
-            <span className="text-sm text-blue-800 ml-12">2019 - 2022</span>
+            <span className="text-sm text-blue-800 dark:text-blue-500 ml-12">
+              2019 - 2022
+            </span>
           </li>
         </ul>
       </div>
