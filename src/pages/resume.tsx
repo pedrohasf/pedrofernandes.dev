@@ -8,14 +8,14 @@ const Resume = () => {
         <title>Pedro Fernandes | Front-End Developer</title>
       </Head>
       <h1 className="text-center dark:text-white">Pedro Fernandes</h1>
-      <div className="flex divide-x-2 divide-gray-800 justify-center">
+      <div className="flex flex-col md:flex-row md:divide-x-2 divide-gray-800 justify-center">
         <span className="text-lg flex items-center px-2">
           Front-End Developer
         </span>
         <span className="text-lg flex items-center px-2">Goiânia, Brazil</span>
         <span className="text-lg flex items-center px-2">July 8, 2001</span>
       </div>
-      <div className="flex divide-x-2 divide-gray-800 justify-center my-2">
+      <div className="flex flex-col md:flex-row md:divide-x-2 divide-gray-800 justify-center my-2">
         <span className="text-lg flex items-center px-2">
           <FiMail size={16} className="mr-2" />
           pedrohasftb@gmail.com
